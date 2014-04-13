@@ -1,0 +1,27 @@
+<!-- Copyright (C) The IETF Trust (2014) -->
+<!-- Copyright (C) The Internet Society (2014) -->
+
+<section anchor="sec:exisiting" title="Exisiting Label Format Specifications">
+  <section anchor='sec:CIPSO' title="Commercial IP Security Option (CIPSO)">
+    <t>
+      The Commercial IP Security Option (CIPSO) label format specification is
+      documented in <xref target='CIPSO' />. While this draft has expired a long
+      time ago, it is the defacto standard for labeled networking. It is also
+      documented in <xref target='FIPS-188' />.
+    </t>
+  </section>
+
+  <section anchor='sec:CALIPSO' title="Common Architecture Label IPv6 Security Option (CALIPSO)">
+    <t>
+      The Common Architecture Label IPv6 Security Option (CALIPSO) <xref target='CIPSO' /> is a
+      successor to CIPSO.
+    </t>
+  </section>
+
+  <section anchor='sec:FLASK' title="Flux Advanced Security Kernel (FLASK)">
+    <t>
+      The Flux Advanced Security Kernel (FLASK) is an impelementation of an
+      architecture to provide flexible support for security policies.
+    </t>
+  </section>
+</section>

@@ -42,29 +42,32 @@
     </list>
   </t>
 
-  <t>
-    The initial assignments of the registry are as follows:
-  </t>
+  <section anchor="sec:iana:init" title="Initial Registry">
+    <t>
+      The initial assignments of the registry are as follows:
+    </t>
 
-  <texttable anchor="tbl:lfs_ranges">
-    <ttcol align='left'>Label Format Selector</ttcol>
-    <ttcol align='left'>Description</ttcol>
-    <ttcol align='left'>Status</ttcol>
-    <ttcol align='left'>Reference</ttcol>
-    <c> 0             </c> <c> Reserved               </c> <c> -      </c> <c> -                               </c>
-    <c> 1 - 127       </c> <c> Private Use            </c> <c> -      </c> <c> -                               </c>
-    <c> 128 - 255     </c> <c> Experimental Use       </c> <c> -      </c> <c> -                               </c>
-    <c> 256           </c> <c> CIPSO (tag type #1)    </c> <c> active </c> <c> [<xref target='CIPSO' /> URL]   </c>
-    <c> 257           </c> <c> CALIPSO (RFC 5570)     </c> <c> active </c> <c> [<xref target='RFC5570' /> URL] </c>
-    <c> 258           </c> <c> FLASK Security Context </c> <c> active </c> <c> [<xref target='FLASK' /> URL]   </c>
-    <c> 258 - 65535   </c> <c> Unassigned             </c> <c> -      </c> <c> -                               </c>
-    <postamble>Label Format Specifier Ranges</postamble>
-  </texttable>
+    <texttable anchor="tbl:lfs_ranges">
+      <ttcol align='left'>Label Format Selector</ttcol>
+      <ttcol align='left'>Description</ttcol>
+      <ttcol align='left'>Status</ttcol>
+      <ttcol align='left'>Reference</ttcol>
+      <c> 0             </c> <c> Reserved               </c> <c> -      </c> <c> -                               </c>
+      <c> 1 - 127       </c> <c> Private Use            </c> <c> -      </c> <c> -                               </c>
+      <c> 128 - 255     </c> <c> Experimental Use       </c> <c> -      </c> <c> -                               </c>
+      <c> 256           </c> <c> CIPSO (tag type #1)    </c> <c> active </c> <c> [<xref target='CIPSO' /> URL]   </c>
+      <c> 257           </c> <c> CALIPSO (RFC 5570)     </c> <c> active </c> <c> [<xref target='RFC5570' /> URL] </c>
+      <c> 258           </c> <c> FLASK Security Context </c> <c> active </c> <c> [<xref target='FLASK' /> URL]   </c>
+      <c> 258 - 65535   </c> <c> Unassigned             </c> <c> -      </c> <c> -                               </c>
+      <postamble>Label Format Specifier Ranges</postamble>
+    </texttable>
+  </section>
 
-  <section anchor="sec:iana:new" title="Adding a new entry to the Registry">
+  <section anchor="sec:iana:new" title="Adding a New Entry to the Registry">
     <t>
       A label format specification document is required to add a new
-      entry to this registry.  The IANA Consideration section of the
+      entry to this registry.  If the label format document
+      is inside the RFC path, then The IANA Consideration section of the
       label format document should clearly reference the Label Format
       Selection registry and request allocation of a new entry.  The
       well-known IANA policy, Specification Required, as defined in
@@ -73,13 +76,6 @@
       this process requires a Designated Expert reviewer, i.e., adding
       a new entry to this registry requires both a published label
       format specification and a Designated Expert review.
-    </t>
-
-    <t>
-      Note that the document specifying the label format may not be
-      an IETF document - the requirement is for a stable document,
-      not a standards track one. However, to be added to the registry
-      does require such a document!
     </t>
   </section>
 

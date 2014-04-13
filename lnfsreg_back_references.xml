@@ -51,6 +51,15 @@
       target="http://tools.ietf.org/id/draft-ietf-cipso-ipsecurity-01.txt"/>
   </reference>
 
+  <reference anchor='FIPS-188'>
+    <front>
+      <title>Standard Security Labels for Information Transfer</title>
+      <author> <organization>US National Institute of Standards and Technology</organization> </author>
+      <date month='September' year='1994' />
+    </front>
+    <seriesInfo name="Federal Information Processing Standard (FIPS)" value="188" />
+  </reference>
+
   <reference anchor='FLASK'>
     <front>
       <title>The Flask Security Architecture: System Support for Diverse Security Policies</title>
@@ -92,7 +101,7 @@
         </author>
         <date year="2014" month="April" />
       </front>
-        <seriesInfo name="RFC" value="5661"/>
+        <seriesInfo name="RFC" value="7204"/>
         <format type="TXT" octets="40348"
           target="ftp://ftp.isi.edu/in-notes/rfc7204.txt"/>
     </reference>

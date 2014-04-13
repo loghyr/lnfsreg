@@ -59,7 +59,7 @@
 <section anchor='sec:defs' title='Definitions'>
   <t>
     <list style='hanging'>
-      <t hangText='Label Format Specifier (LFS):'>
+      <t hangText='Label Format Specification:'>
         an identifier used by the client to establish
         the syntactic format of the security label and the semantic meaning
         of its components.
@@ -76,12 +76,6 @@
         Objects can be entities such as files, directories, pipes,
         sockets, and many other system resources relevant to the
         protection of the system state.
-      </t>
-
-      <t hangText='Policy Identifier (PI):'>
-        an optional part of the definition of a Label
-        Format Specifier.  The PI allows clients and servers to identify
-        specific security policies.
       </t>
 
       <t hangText='Subject:'>
