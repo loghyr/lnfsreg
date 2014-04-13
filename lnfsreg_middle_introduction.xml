@@ -1,0 +1,103 @@
+<!-- Copyright (C) The IETF Trust (2014) -->
+<!-- Copyright (C) The Internet Society (2014) -->
+
+<section anchor="sec:intro" title="Introduction">
+  <t>
+    With the acceptance of security labels in several mainstream
+    operating systems the need to communicate labels between these
+    systems becomes more important. In a typical client and server
+    scenario, the client request to the server acts as a subject
+    trying to access an object on the server <xref target='RFC7204' />.
+    Unfortunately these systems are diverse enough that attempts
+    at establishing one common label format have been unsucessful.
+    The reason for this is that systems implement different Mandatory
+    Access Control (MAC) models, which typically do not share any
+    common ground.
+  </t>
+
+  <t>
+    One solution is to define a single label format which consists
+    of the union of the requirements of all MAC models/implementations.
+    This is not ideal because it introduces an environment where
+    many MAC models would either have blank fields for many of the
+    label's components or will ignore the values that are present
+    all together.  This environment introduces waste and complexity
+    where it is not needed.  Additionally if a policy authority or
+    identifier field is specified in the label format it would
+    require a robust description that could be implemented which
+    would lock policy administration into the described model.
+  </t>
+
+  <t>
+    Ideally a mechanism to address this problem should allow the
+    most flexibility possible in terms of policy administration
+    while providing a specification that is suffient to allow for
+    implementation of the label format and understanding of the
+    semantics of the label.  This means that the label format
+    specification  would ideally contain a syntactic description
+    of the label format and a description of the semantics for each
+    component in the label.  This allows protocols to specify the
+    type of label and label semantics that it requires while leaving
+    policy and policy administration to the individual organizations
+    using the protocol in their environment.
+  </t>
+
+  <t>
+    Policy administration within an organization is a difficult
+    problem.  This should not be made even more difficult by having
+    to request permission from external entities when crafting new
+    policy or just making department specific modifications to
+    existing policies.  The policy authority field would allow an
+    label format specification to specify a scheme for policy
+    administration without forcing it on all users of security
+    labels.  However by agreeing to implement a particular label
+    format specification, the protocol agrees to that policy
+    administration mechanism when processing labels of that type.
+  </t>
+</section>
+
+<section anchor='sec:defs' title='Definitions'>
+  <t>
+    <list style='hanging'>
+      <t hangText='Label Format Specifier (LFS):'>
+        an identifier used by the client to establish
+        the syntactic format of the security label and the semantic meaning
+        of its components.
+      </t>
+
+      <t hangText='Multi-Level Security (MLS):'>
+        a traditional model where objects are given a sensitivity
+        level (Unclassified, Secret, Top Secret, etc.) and a category set
+        <xref target='RH_MLS' />.
+      </t>
+
+      <t hangText='Object:'>
+        a passive resource within the system that we wish to protect.
+        Objects can be entities such as files, directories, pipes,
+        sockets, and many other system resources relevant to the
+        protection of the system state.
+      </t>
+
+      <t hangText='Policy Identifier (PI):'>
+        an optional part of the definition of a Label
+        Format Specifier.  The PI allows clients and servers to identify
+        specific security policies.
+      </t>
+
+      <t hangText='Subject:'>
+        an active entity, usually a process, that is requesting access
+        to an object.
+      </t>
+    </list>
+  </t>
+</section>
+
+<section title="Requirements Language">
+  <t>
+    The key words &quot;MUST&quot;, &quot;MUST NOT&quot;,
+    &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&quot;,
+    &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;,
+    &quot;MAY&quot;, and &quot;OPTIONAL&quot; in this document are to be
+    interpreted as described in <xref target="RFC2119" />.
+  </t>
+</section>

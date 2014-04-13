@@ -1,0 +1,70 @@
+<!-- Copyright (C) The IETF Trust (2014) -->
+<!-- Copyright (C) The Internet Society (2014) -->
+
+<front>
+    <title abbrev="Labeled NFS Registry">
+      Registry Specification for Mandatory Access Control(MAC) Security Label Formats
+    </title>
+
+
+    <author fullname="David P. Quigley"
+            initials="D. P."
+            surname="Quigley">
+      <address>
+        <email>dpquigl@davequigley.com</email>
+      </address>
+    </author>
+
+    <author fullname="Jarrett Lu"
+            initials="J"
+            surname="Lu">
+      <organization abbrev="Oracle">Oracle</organization>
+      <address>
+        <email>jarrett.lu@oracle.com</email>
+      </address>
+    </author>
+
+    <author fullname="Thomas Haynes"
+            initials="T."
+            surname="Haynes">
+      <organization abbrev="Primary Data">Primary Data, Inc.</organization>
+      <address>
+        <postal>
+          <street>4300 El Camino Real Ste 100</street>
+          <city> Los Altos</city>
+          <region>CA</region>
+          <code>94022</code>
+          <country>USA</country>
+        </postal>
+        <phone>+1 408 215 1519</phone>
+        <email>thomas.haynes@primarydata.com</email>
+      </address>
+    </author>
+
+    <date year="YEARVAR" month="MONTHVAR" day="DAYVAR"/>
+
+    <area>Transport</area>
+    <workgroup>NFSv4</workgroup>
+    <keyword>NFSv4</keyword>
+
+    <abstract>
+      <t>
+        In the past Mandatory Access Control (MAC) systems have used very
+        rigid policies which were hardcoded into the particular protocol and
+        platform.  As MAC systems are more widely deployed additional
+        flexibility in mechanism and policy is required.  Where traditional
+        trusted systems implemented Multi-Level Security (MLS) and integrity
+        models, modern systems have expanded to include technologies such as
+        type enforcement.  Due to the wide range of policies and mechanisms
+        it has proven through past efforts to be virtually impossible to
+        accomodate all parties in one security label format and model.
+
+        To accomodate multiple MAC mechanisms and label formats this document
+        proposes a registry of label format specifications.  This registry
+        contains several identifiers to accomodate both integer and string
+        preferences and associates those identifiers with an extensive
+        document outlining the exact syntax and use of the particular label
+        format.
+      </t>
+    </abstract>
+</front>

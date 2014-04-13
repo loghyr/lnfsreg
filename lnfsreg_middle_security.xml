@@ -1,0 +1,13 @@
+<!-- Copyright (C) The IETF Trust (2014) -->
+<!-- Copyright (C) The Internet Society (2014) -->
+
+<section anchor="sec:security" title="Security Considerations">
+  <t>
+    This document defines a mechanism to associate LFS
+    identifier with a document outlining the syntax and format of
+    a label.  There is no security consideration in such an
+    association.  The label specification documents referenced by
+    each registration entry should state security considerations
+    for the label mechanism it specifies.
+  </t>
+</section>

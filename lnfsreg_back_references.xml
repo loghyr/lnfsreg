@@ -1,0 +1,109 @@
+<!-- Copyright (C) The IETF Trust (2014) -->
+<!-- Copyright (C) The Internet Society (2014) -->
+
+  <references title="Normative References">
+
+    <reference anchor='RFC2119'>
+      <front>
+	<title abbrev='RFC Key Words'>Key words for use in RFCs to Indicate Requirement Levels</title>
+	<author initials='S.' surname='Bradner' fullname='Scott Bradner'>
+	  <organization>Harvard University</organization>
+	  <address>
+	    <postal>
+	      <street>1350 Mass. Ave.</street>
+	      <street>Cambridge</street>
+	    <street>MA 02138</street></postal>
+	    <phone>- +1 617 495 3864</phone>
+     	<email>sob@harvard.edu</email></address></author>
+     	<date year='1997' month='March' />
+      </front>
+    </reference>
+
+
+<reference anchor='RFC5226'>
+
+<front>
+<title>Guidelines for Writing an IANA Considerations Section in RFCs</title>
+<author initials='T.' surname='Narten' fullname='T. Narten'>
+<organization /></author>
+<author initials='H.' surname='Alvestrand' fullname='H. Alvestrand'>
+<organization /></author>
+<date year='2008' month='May' />
+<abstract>
+<t>Many protocols make use of identifiers consisting of constants and other well-known values. Even after a protocol has been defined and deployment has begun, new values may need to be assigned (e.g., for a new option type in DHCP, or a new encryption or authentication transform for IPsec). To ensure that such quantities have consistent values and interpretations across all implementations, their assignment must be administered by a central authority. For IETF protocols, that role is provided by the Internet Assigned Numbers Authority (IANA).&lt;/t>&lt;t> In order for IANA to manage a given namespace prudently, it needs guidelines describing the conditions under which new values can be assigned or when modifications to existing values can be made. If IANA is expected to play a role in the management of a namespace, IANA must be given clear and concise instructions describing that role. This document discusses issues that should be considered in formulating a policy for assigning values to a namespace and provides guidelines for authors on the specific text that must be included in documents that place demands on IANA.&lt;/t>&lt;t> This document obsoletes RFC 2434. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t></abstract></front>
+
+<seriesInfo name='BCP' value='26' />
+<seriesInfo name='RFC' value='5226' />
+<format type='TXT' octets='66160' target='http://www.rfc-editor.org/rfc/rfc5226.txt' />
+</reference>
+</references>
+
+<references title="Informative References">
+
+  <reference anchor='CIPSO'>
+    <front>
+      <title>Commercial IP Security Option (CIPSO 2.2)</title>
+      <author> <organization>IETF CIPSO Working Group</organization> </author>
+      <date month='July' year='1992' />
+    </front>
+    <seriesInfo name="draft-ietf-cipso-ipsecurity-01" value="(expired)" />
+    <format type="TXT"
+      target="http://tools.ietf.org/id/draft-ietf-cipso-ipsecurity-01.txt"/>
+  </reference>
+
+  <reference anchor='FLASK'>
+    <front>
+      <title>The Flask Security Architecture: System Support for Diverse Security Policies</title>
+      <author initials='R' surname='Spencer' fullname='R. Spencer'> <organization /></author>
+      <author initials='S' surname='Smalley' fullname='S. Smalley'> <organization /></author>
+      <author initials='P' surname='Loscocco' fullname='P. Loscocco'> <organization /></author>
+      <author initials='M' surname='Hibler' fullname='M. Hibler'> <organization /></author>
+      <author initials='D' surname='Andersen' fullname='D. Andersen'> <organization /></author>
+      <author initials='J' surname='Lepreau' fullname='J. Lepreau'> <organization /></author>
+      <date month='August' year='1999' />
+    </front>
+    <seriesInfo name="In Proceedings of the Eighth USENIX Security Symposium, pages 123-139" value="" />
+    <format type="TXT"
+      target="https://www.cs.cmu.edu/~dga/papers/flask-usenixsec99.pdf" />
+   </reference>
+
+  <reference anchor='RFC5570'>
+  <front>
+  <title>Common Architecture Label IPv6 Security Option (CALIPSO)</title>
+  <author initials='M.' surname='StJohns' fullname='M. StJohns'>
+  <organization /></author>
+  <author initials='R.' surname='Atkinson' fullname='R. Atkinson'>
+  <organization /></author>
+  <author initials='G.' surname='Thomas' fullname='G. Thomas'>
+  <organization /></author>
+  <date year='2009' month='July' />
+  <abstract>
+  <t>This document describes an optional method for encoding explicit packet Sensitivity Labels on IPv6 packets.  It is intended for use only within Multi-Level Secure (MLS) networking environments that are both trusted and trustworthy.  This memo provides information for the Internet community.</t></abstract></front>
+
+  <seriesInfo name='RFC' value='5570' />
+  <format type='TXT' octets='128032' target='http://www.rfc-editor.org/rfc/rfc5570.txt' />
+  </reference>
+
+    <reference anchor='RFC7204'>
+      <front>
+        <title>Requirements for Labeled NFS</title>
+        <author initials="T." surname="Haynes" fullname="T. Halevy">
+          <organization>Primary Data, Inc.</organization>
+        </author>
+        <date year="2014" month="April" />
+      </front>
+        <seriesInfo name="RFC" value="5661"/>
+        <format type="TXT" octets="40348"
+          target="ftp://ftp.isi.edu/in-notes/rfc7204.txt"/>
+    </reference>
+
+  <reference anchor='RH_MLS' target="http://docs.redhat.com/docs/en-US/Red_Hat_Enterprise_Linux/5/html/Deployment_Guide/sec-mls-ov.html">
+    <front>
+      <title>Multi-Level Security (MLS)</title>
+      <author />
+      <date year='2013' />
+    </front>
+   <seriesInfo name="&quot;Deployment, configuration and administration of Red Hat Enterprise Linux 5," value="Edition 10&quot;, Section 49.6"/>
+  </reference>
+
+</references>
