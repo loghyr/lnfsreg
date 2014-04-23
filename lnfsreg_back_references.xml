@@ -96,7 +96,7 @@
     <reference anchor='RFC7204'>
       <front>
         <title>Requirements for Labeled NFS</title>
-        <author initials="T." surname="Haynes" fullname="T. Halevy">
+        <author initials="T." surname="Haynes" fullname="T. Haynes">
           <organization>Primary Data, Inc.</organization>
         </author>
         <date year="2014" month="April" />
