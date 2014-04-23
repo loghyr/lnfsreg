@@ -4,11 +4,11 @@
 YEAR=`date +%Y`
 MONTH=`date +%B`
 DAY=`date +%d`
-PREVVERS=01
-VERS=02
+PREVVERS=00
+VERS=01
 XML2RFC=xml2rfc
 
-BASEDOC=draft-quigley-label-format-registry
+BASEDOC=draft-quigley-nfsv4-lfs-registry
 DOC_PREFIX=lnfsreg
 
 autogen/%.xml : %.x
