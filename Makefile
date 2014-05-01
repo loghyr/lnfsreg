@@ -5,10 +5,10 @@ YEAR=`date +%Y`
 MONTH=`date +%B`
 DAY=`date +%d`
 PREVVERS=00
-VERS=00
+VERS=01
 XML2RFC=xml2rfc
 
-BASEDOC=draft-nfsv4-lfs-registry
+BASEDOC=draft-ietf-nfsv4-lfs-registry
 DOC_PREFIX=lnfsreg
 
 autogen/%.xml : %.x
