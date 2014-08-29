@@ -2,26 +2,53 @@
 <!-- Copyright (C) The Internet Society (2014) -->
 
 <section anchor="sec:exisiting" title="Exisiting Label Format Specifications">
+  <section anchor='sec:IPSO' title="IP Security Option (IPSO)">
+    <t>
+    </t>
+  </section>
+
   <section anchor='sec:CIPSO' title="Commercial IP Security Option (CIPSO)">
     <t>
-      The Commercial IP Security Option (CIPSO) label format specification is
-      documented in <xref target='CIPSO' />. While this draft has expired a long
-      time ago, it is the defacto standard for labeled networking. It is also
-      documented in <xref target='FIPS-188' />.
+      The "Commercial IP Security Option (CIPSO)" label format is
+      documented in <xref target='CIPSO' /> and in <xref target='FIPS-188' />.
+      While the cited Internet-Draft is long expired, it is widely
+      supported in deployed MLS systems that support IPv4.  IANA
+      has assigned IPv4 option number 134 to CIPSO.  CIPSO is defined
+      ONLY as an IPv4 option.  IANA has never assigned any IPv6
+      option value to CIPSO.
     </t>
   </section>
 
   <section anchor='sec:CALIPSO' title="Common Architecture Label IPv6 Security Option (CALIPSO)">
     <t>
-      The Common Architecture Label IPv6 Security Option (CALIPSO) <xref target='CIPSO' /> is a
-      successor to CIPSO.
+      The "Common Architecture Label IPv6 Security Option (CALIPSO)"
+      label format is specified in <xref target='RFC5570' /> and
+      is defined for IPv6.  As noted in Section 10 of
+      <xref target='RFC5570' />  CALIPSO is a direct derivative of
+      the IPv4 "Simple IP Security Option (SIPSO)", therefore CALIPSO
+      is NOT derived from CIPSO in any way.
     </t>
   </section>
 
   <section anchor='sec:FLASK' title="Flux Advanced Security Kernel (FLASK)">
     <t>
-      The Flux Advanced Security Kernel (FLASK) is an impelementation of an
-      architecture to provide flexible support for security policies.
+
+      The Flux Advanced Security Kernel (FLASK) <xref target='FLASK99' />
+      is an impelementation of an architecture to provide flexible
+      support for security policies. Section 2.1 of
+      <xref target='FLASK99b' />, summarizes the architecture of FLASK
+      to:
+
+      <list style="numbers">
+        <t>
+          describe the interactions between a subsystem which enforces
+          security policy decisions and a subsystem which makes those decisions
+        </t>
+
+        <t>
+          the requirements on the components within each subsystem.
+        </t>
+      </list>
     </t>
   </section>
 </section>

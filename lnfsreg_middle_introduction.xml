@@ -66,21 +66,23 @@
       </t>
 
       <t hangText='Multi-Level Security (MLS):'>
-        a traditional model where objects are given a sensitivity
-        level (Unclassified, Secret, Top Secret, etc.) and a category set
-        <xref target='RH_MLS' />.
+        a traditional model where subjects are given a security level
+        (Unclassified, Secret, Top Secret, etc.) and objects are
+        given security labels that mandate the access of the subject
+        to the object (see <xref target='BL73' /> and
+        <xref target='RFC2401' />).
       </t>
 
-      <t hangText='Object:'>
+      <t hangText='object:'>
         a passive resource within the system that we wish to protect.
         Objects can be entities such as files, directories, pipes,
         sockets, and many other system resources relevant to the
         protection of the system state.
       </t>
 
-      <t hangText='Subject:'>
-        an active entity, usually a process, that is requesting access
-        to an object.
+      <t hangText='subject:'>
+        an active entity, usually a process, user, or client, that
+        is requesting access to an object.
       </t>
     </list>
   </t>
