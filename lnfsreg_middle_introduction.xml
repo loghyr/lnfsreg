@@ -16,16 +16,25 @@
   </t>
 
   <t>
-    One solution is to define a single label format which consists
-    of the union of the requirements of all MAC models/implementations.
-    This is not ideal because it introduces an environment where
+    One solution might be to define a single label format which
+    consists of the union of the requirements of all MAC
+    models/implementations, known at a given time. This approach
+    is not desirable because it introduces an environment where
     many MAC models would either have blank fields for many of the
-    label's components or will ignore the values that are present
-    all together.  This environment introduces waste and complexity
-    where it is not needed.  Additionally if a policy authority or
+    label's components or where many implementations would ignore
+    many of values that are present altogether.  The resulting
+    complexity would be likely to result in a confusing situation
+    in which the interaction of fields that that derive from different
+    MAC models is never clearly specified and the addition of new
+    models or extension of existing models is unduly difficult.
+  </t>
+
+  <t>
+    An additional consideration is that if a policy authority or
     identifier field is specified in the label format it would
-    require a robust description that could be implemented which
-    would lock policy administration into the described model.
+    require a robust description that encompassed multiple MAC
+    models where implementation would lock policy administration
+    into the described model.
   </t>
 
   <t>
@@ -59,10 +68,15 @@
 <section anchor='sec:defs' title='Definitions'>
   <t>
     <list style='hanging'>
-      <t hangText='Label Format Specification:'>
+      <t hangText='Label Format Specifier:'>
         an identifier used by the client to establish
         the syntactic format of the security label and the semantic meaning
         of its components.
+      </t>
+
+      <t hangText='Label Format Specification:'>
+        is a reference to a stable, public document
+        that specifies the label format.
       </t>
 
       <t hangText='Multi-Level Security (MLS):'>

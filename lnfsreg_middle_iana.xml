@@ -14,7 +14,7 @@
     has the following fields:
 
     <list style='hanging'>
-      <t hangText='Label Format Selector:'>
+      <t hangText='Label Format Specifier:'>
         An integer number that maps to a particular label format,
         e.g., the CALIPSO label format defined by
         <xref target='RFC5570' />.  The name space of this
@@ -36,7 +36,7 @@
       </t>
 
       <t hangText='Label Format Specification:'>
-        A reference to a stable, public document that specify the
+        A reference to a stable, public document that specifies the
         label format, e.g., an URL to <xref target='RFC5570' />.
       </t>
     </list>
@@ -48,7 +48,7 @@
     </t>
 
     <texttable anchor="tbl:lfs_ranges">
-      <ttcol align='left'>Label Format Selector</ttcol>
+      <ttcol align='left'>Label Format Specifier</ttcol>
       <ttcol align='left'>Description</ttcol>
       <ttcol align='left'>Status</ttcol>
       <ttcol align='left'>Reference</ttcol>
@@ -80,7 +80,7 @@
     </t>
   </section>
 
-  <section anchor="sec:iana:obs" title="Obsoleting a Label Format Selector">
+  <section anchor="sec:iana:obs" title="Obsoleting a Label Format Specifier">
     <t>
       In the case that a label format selector number is assigned to
       a label format and the label format specification is changed
@@ -93,7 +93,7 @@
     </t>
 
     <texttable anchor="tbl:ex_lfs_update">
-      <ttcol align='left'>Label Format Selector</ttcol>
+      <ttcol align='left'>Label Format Specifier</ttcol>
       <ttcol align='left'>Description</ttcol>
       <ttcol align='left'>Status</ttcol>
       <ttcol align='left'>Reference</ttcol>
