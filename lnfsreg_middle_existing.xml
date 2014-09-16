@@ -2,8 +2,24 @@
 <!-- Copyright (C) The Internet Society (2014) -->
 
 <section anchor="sec:exisiting" title="Exisiting Label Format Specifications">
-  <section anchor='sec:IPSO' title="IP Security Option (IPSO)">
+  <section anchor='sec:IPSO' title="IP Security Option (IPSO), Basic Security Option (BSO)">
     <t>
+      The "IP Security Option (IPSO)" label format is
+	    defined in <xref target='RFC1108' />.  IANA has assigned
+	    IPv4 Option 130 to the IPSO Basic Security Option (BSO).
+	    IPSO is the only IPv4 sensitivity label option implemented
+	    in commercial IP routers.  IPSO BSO continues to have
+	    widespread implementation in hosts, and widespread
+	    deployment.  For the purposes of this document, only
+	    the BSO labels in Table 1 on Page 3 of
+      <xref target='RFC1108' /> are used.
+    </t>
+
+    <t>
+      In some locales, the BSO value "(Reserved 2)" is used for
+      marking information that is considered "Restricted" by local
+      policy, where "Restricted" is less sensitive than "Confidential"
+      but more sensitive than "Unclassified".
     </t>
   </section>
 
