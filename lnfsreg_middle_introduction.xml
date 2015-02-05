@@ -63,6 +63,14 @@
     format specification, the protocol agrees to that policy
     administration mechanism when processing labels of that type.
   </t>
+
+  <t>
+    This document presents a registry of label format specifications
+    to allow multiple MAC mechanisms and label formats to co-exist
+    in a network. While the initial use of this registry is for the
+    Network File System (NFS) protocol, it might also be referenced
+    and used by other IETF protocols in future.
+  </t>
 </section>
 
 <section anchor='sec:defs' title='Definitions'>
