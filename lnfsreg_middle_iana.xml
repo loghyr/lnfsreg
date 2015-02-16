@@ -109,4 +109,24 @@
       <postamble>Example Label Format Specifier Updated Ranges</postamble>
     </texttable>
   </section>
+
+  <section anchor="sec:iana:mod" title="Modifying an Existing Entry in the Registry">
+    <t>
+      A request to modify  either the Description or the published
+      label format specification will also require the Specification
+      Required IANA policy to be applied. The Designated Expert reviewer
+      will need to determine if the published label format specification
+      either
+
+      <list style='hanging'>
+        <t hangText='obsoletes the Label Format Specifier -'>
+           follow the process in <xref target='sec:iana:obs' />
+        </t>
+
+        <t hangText='updates the label syntax and/or model - '>
+          approve the change.
+        </t>
+      </list>
+    </t>
+  </section>
 </section>

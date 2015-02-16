@@ -9,6 +9,11 @@
   <t>
     Dave Noveck helped detangle the terminology.
   </t>
+
+  <t>
+    Alexey Melnikov caught that a process was needed for
+    modifying entries in the registry.
+  </t>
 </section>
 
 <section title="RFC Editor Notes">
