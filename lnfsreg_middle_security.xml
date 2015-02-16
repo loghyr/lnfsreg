@@ -3,7 +3,7 @@
 
 <section anchor="sec:security" title="Security Considerations">
   <t>
-    This document defines a mechanism to associate LFS
+    This document defines a mechanism to associate the Label Format Specifier
     identifier with a document outlining the syntax and format of
     a label.  There is no security consideration in such an
     association.  The label specification documents referenced by
