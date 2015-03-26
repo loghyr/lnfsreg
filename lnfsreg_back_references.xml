@@ -68,7 +68,7 @@
       target="http://tools.ietf.org/id/draft-ietf-cipso-ipsecurity-01.txt"/>
   </reference>
 
-  <reference anchor='FIPS-188'>
+  <reference anchor='FIPS-188' target="http://csrc.nist.gov/publications/fips/fips188/fips188.pdf">
     <front>
       <title>Standard Security Labels for Information Transfer</title>
       <author> <organization>US National Institute of Standards and Technology</organization> </author>
