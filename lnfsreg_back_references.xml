@@ -16,16 +16,6 @@
       <seriesInfo name='RFC' value='20' />
       <format type='TXT' octets='18504' target='http://www.rfc-editor.org/rfc/rfc20.txt' />
     </reference>
-  <reference anchor="UNICODE" target="http://www.unicode.org/versions/Unicode6.3.0/">
-    <front>
-      <title>The Unicode Standard, Version 6.3.0</title>
-      <author>
-        <organization>The Unicode Consortium</organization>
-      </author>
-      <date year="2013" month="September"/>
-    </front>
-  </reference>
-
 
 <reference anchor='RFC5226'>
 
