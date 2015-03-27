@@ -114,19 +114,14 @@
     <t>
       A request to modify  either the Description or the published
       label format specification will also require the Specification
-      Required IANA policy to be applied. The Designated Expert reviewer
-      will need to determine if the published label format specification
-      either
-
-      <list style='hanging'>
-        <t hangText='obsoletes the Label Format Specifier -'>
-           follow the process in <xref target='sec:iana:obs' />
-        </t>
-
-        <t hangText='updates the label syntax and/or model - '>
-          approve the change.
-        </t>
-      </list>
+      Required IANA policy to be applied.  The Designated Expert
+      reviewer will need to determine if the published label format
+      specification either obsoletes the Label Format Specifier or
+      updates the label syntax and/or model. If the Label Format
+      Specifier is obsoleted, then the reviewer will follow the process
+      defined in <xref target='sec:iana:obs' />.  Otherwise for the
+      update of either the label syntax and/or the model, the reviewer
+      will approve the change.
     </t>
   </section>
 </section>
