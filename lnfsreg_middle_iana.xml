@@ -78,6 +78,18 @@
       a new entry to this registry requires both a published label
       format specification and a Designated Expert review.
     </t>
+
+    <t>
+      In reviewing the published label format specification, the Designated Expert
+      should consider whether or not the specification provides sufficient
+      semantics for the object and subject labels to enforce the MAC model
+      and policy administration when deployed within an organization. Another
+      consideration is if the label format allows a correct and complete
+      implementation of the protocol to process and enforce labels as a
+      policy administration mechanism. Finally, to reduce interoperability
+      issues, the review must determine if the new label format specification
+      has clearly defined syntax and semantics for the proposed new labels.
+    </t>
   </section>
 
   <section anchor="sec:iana:obs" title="Obsoleting a Label Format Specifier">
