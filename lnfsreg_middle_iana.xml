@@ -59,7 +59,7 @@
       <c> 257           </c> <c> CALIPSO (<xref target='RFC5570' />)  </c> <c> active </c> <c> [<xref target='RFC5570' /> URL] </c>
       <c> 258           </c> <c> FLASK Security Context               </c> <c> active </c> <c> [<xref target='FLASK99' /> URL] </c>
       <c> 259           </c> <c> IPSO                                 </c> <c> active </c> <c> [<xref target='RFC1108' /> URL] </c>
-      <c> 260 - 65535   </c> <c> Reserved for IANA Assignment         </c> <c> -      </c> <c> -                               </c>
+      <c> 260 - 65535   </c> <c> Available for IANA Assignment         </c> <c> -      </c> <c> -                               </c>
       <postamble>Label Format Specifier Ranges</postamble>
     </texttable>
   </section>
@@ -67,7 +67,7 @@
   <section anchor="sec:iana:new" title="Adding a New Entry to the Registry">
     <t>
       A label format specification document is required to add a new
-      entry to this registry.  If the label format document
+      entry to the "Security Label Format Selection Registry".  If the label format document
       is inside the RFC path, then The IANA Consideration section of the
       label format document should clearly reference the Label Format
       Selection registry and request allocation of a new entry.  The
@@ -117,7 +117,7 @@
       <c> 258           </c> <c> FLASK Security Context               </c> <c> obsoleted by 263 </c> <c> [<xref target='FLASK99' /> URL]   </c>
       <c> ...           </c> <c>                                      </c> <c>                  </c> <c>                                 </c>
       <c> 263           </c> <c> FLASK Security Context (v2)          </c> <c> active           </c> <c> [new spec URL]                  </c>
-      <c> 264 - 65535   </c> <c> Reserved for IANA Assignment         </c> <c> -                </c> <c> -                               </c>
+      <c> 264 - 65535   </c> <c> Available for IANA Assignment         </c> <c> -                </c> <c> -                               </c>
       <postamble>Example Label Format Specifier Updated Ranges</postamble>
     </texttable>
   </section>
